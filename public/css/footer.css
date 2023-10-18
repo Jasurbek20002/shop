@@ -1,0 +1,42 @@
+.footer
+{
+    background-color: black;
+}
+.footer_container
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+.footer_box{
+    margin-top: 30px;
+}
+
+.footer_content{
+    text-decoration: none;
+    color: lightgray;
+    transition: color 500ms ease;
+}
+.footer_content:hover{
+    color: gray;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.solial_icons{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media(max-width:500px){
+    .contact{
+        display: flex;
+        flex-direction: column;
+        max-width:135px;
+    }
+}
